@@ -1,0 +1,52 @@
+fieldset {
+    border: 0;
+}
+legend {
+    display: none;
+}
+label {
+    display: block;
+}
+.form-wrapper {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 450px;
+    .full-width {
+        width: 100%;
+    }
+    .form-field-wrapper, input[type=text] {
+        padding: 0;
+    }
+    .row {
+        margin: 20px 0;
+    }
+    input[type=text]{
+        transition: all 0.2s ease-out;
+        height: 25px;
+        border: none;
+        border-bottom: solid 2.5px #aaa;
+        font-size: 18px;
+        &:focus {
+            outline: none;
+            border-bottom: solid 2.5px #21CE99;
+        }
+    }
+    .has-error {
+        color: #E3242B;
+        input[type=text] {
+            border-bottom: solid 2.5px #E3242B;
+        }
+    }
+    select {
+        height: 30px;
+        width: 90px;
+    }
+    .submit-wrapper {
+        text-align: center;
+        margin: 20px 0;
+        button {
+            margin: 0 20px;
+        }
+    }
+}

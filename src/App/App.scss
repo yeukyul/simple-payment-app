@@ -1,0 +1,46 @@
+// shared UI elements
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 50px 25px 0;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+button, input[type=submit] {
+  transition: all 0.2s ease-out;
+  padding: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button.primary-button, input[type=submit] {
+  background-color: #21CE99;
+  color: white;
+  &:hover {
+    background-color: #3F7856;
+  }
+  &:focus {
+    outline: 2px solid #3F7856;
+  }
+}
+button.secondary-button {
+  background-color: #aaa;
+  color: white;
+  &:hover {
+    background-color: #999;
+  }
+  &:focus {
+    outline: 2px solid #999;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}

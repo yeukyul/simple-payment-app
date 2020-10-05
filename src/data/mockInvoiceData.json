@@ -1,0 +1,20 @@
+[
+    {
+        "invoiceId": "SD2YHG3923",
+        "vendorName": "ABC Corp",
+        "balance": "123.00",
+        "currency": "USD"
+    },
+    {
+        "invoiceId": "J290SHF92H",
+        "vendorName": "San Jose Health",
+        "balance": "1078.00",
+        "currency": "USD"
+    },
+    {
+        "invoiceId": "98JSNV89H",
+        "vendorName": "Random Inc.",
+        "balance": "2334.00",
+        "currency": "USD"
+    }
+]
