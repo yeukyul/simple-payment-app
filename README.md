@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is a payment application where user will see a list of their outstanding invoices, and can choose to pay them with a credit card.
+This is a simple payment application, where user sees a list of their outstanding invoices onn the landing page, and can choose to pay them with a credit card with the subsequent payment form.
 
-The source code for the application are all under `src/` with `index.js` being the entry point.
+The source code for the application are under `src/` with `index.js` being the entry point.
 
 ## How to Run
 
@@ -26,4 +26,4 @@ A gif that captures the main flow. Note that Chrome's autofill dropdown occassio
 - The credit card validations could be strengthen. Namely that validation rules for each credit card type (i.e. visa, master, discover, and amex) could be added to check for specific credit card number length and cvv length.
 - Could set up linter for more readable code (i.e. single vs double quote, spacing).
 - The hex code for colors could be stored in a global sass style sheet for components to import as variables.
-- Could use typescript for strong type checking purpose. Omitted for the simple exercise.
+- Could use typescript for strong type checking purpose. Omitted for the simplicity of the exercise.
