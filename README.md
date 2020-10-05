@@ -13,7 +13,6 @@ On terminal, `cd` into the top level of the directory and run:
 npm install
 npm start
 ```
-Make sure that node and npm version requirement matches that specified in package.json.
 
 ## Demo
 
